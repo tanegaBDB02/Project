@@ -1,0 +1,46 @@
+Study ID,Active/Drug,Study Duration (days),Dose (mg),N (Treatment arm),Biomarker,Outcome name,Baseline Mean,Final Mean,Absolute Change ,Rate,Dose Normalised rate ,Unit,P Value
+MA2025,Tirzepatide SC,42,10,37,Energy Intake,Ad libitum lunch energy intake – week 6,926.4,268.6,-657.8,-15.66190476,-1.566190476,kcal,<0.0001
+MA2025,Liraglutide SC,42,3,38,Energy Intake,Ad libitum lunch energy intake – week 6,1044.8,730.3,-314.5,-7.488095238,-2.496031746,kcal,<0.0001
+HE2023,Tirzepatide SC,196,15,45,Energy Intake,Ad libitum buffet-style lunch energy intake – week 28,1105,756.6,-348.4,-1.77755102,-0.118503401,kcal,<0.001
+GA2021,Semaglutide Oral,84,14,13,Energy Intake,Ad libitum snack box,1245.2,773.7,-471.5,-5.613095238,-0.400935374,kcal,0.0058
+GI2021,Semaglutide SC,84,14,15,Energy Intake,Total Daily Ad libitum Energy Intake,3127.868069,1909.894837,-1217.973231,-14.49968133,-1.035691523,kcal,0.0001
+KA2020,Liraglutide SC,112,3,17,PYY,Postprandial PYY AUC0–90 min,10597.5,14718,4120.5,36.79017857,12.26339286,pg/mL,0.04
+GA2024,Semaglutide Oral,140,50,28,Energy Intake,Ad libitum lunch energy intake – week 20,660.6118547,452.91587,-207.6959847,-1.483542748,-0.029670855,kcal,<0.05
+BL2017,Semaglutide SC,84,1,28,Energy Intake,Ad libitum lunch energy intake,868.5468451,568.3556405,-300.1912046,-3.573704817,-3.573704817,kcal,<0.0001
+JU2026,Dulaglutide SC,168,0.75,67,Leptin,Leptin,11000,6000,-5000,-29.76190476,-39.68253968,ng/mL,<0.001
+FR2021,Semaglutide SC,140,2.4,35,Energy Intake,Ad libitum lunch energy intake,791.8260038,414.9139579,-376.9120459,-2.692228899,-1.121762041,kcal,<0.0001
+HE2023,Semaglutide SC,196,1,44,Energy Intake,Ad libitum lunch energy intake – Week 28,1131,846.9,-284.1,-1.449489796,-1.449489796,kcal,<0.001
+GA2021,Semaglutide Oral,84,14,13,Energy Intake,Ad libitum lunch meal,796.1,509.8,-286.3,-3.408333333,-0.243452381,kcal,0.0257
+GA2021,Semaglutide Oral,84,14,13,Energy Intake,Ad libitum evening meal,1086.5,626.2,-460.3,-5.479761905,-0.391411565,kcal,0.0263
+BL2017,Semaglutide SC,84,1,30,Energy Intake,Ad libitum lunch energy intake,868.5468451,568.3556405,-300.1912046,-3.573704817,-3.573704817,kcal,<0.0001
+BL2017,Semaglutide SC,84,1,30,Energy Intake,Ad libitum evening meal energy intake,1007.170172,827.1988528,-179.9713193,-2.142515706,-2.142515706,kcal,0.0401
+BL2017,Semaglutide SC,84,1,30,Energy Intake,Ad libitum snack box energy intake,1092.973231,847.2753346,-245.6978967,-2.924974961,-2.924974961,kcal,0.0034
+BL2017,Semaglutide SC,84,1,30,Energy Intake,Total daytime ad libitum energy intake,2968.690249,2242.829828,-725.8604207,-8.641195484,-8.641195484,kcal,<0.0001
+FR2021,Semaglutide,140,2.4,72,Energy Intake,Ad libitum lunch energy intake (absolute),791.8260038,414.9139579,-376.9120459,-2.692228899,-1.121762041,kcal,<0.0001
+SX2021,Liraglutide SC,42,3,32,Energy Intake,48-hour Energy Intake – Week 3,5253,4393,-860,-20.47619048,-6.825396825,kcal,<0.0001
+SX2021,Liraglutide SC,42,3,32,Energy Intake,48-hour Energy Intake – Week 6,5253,4324,-929,-22.11904762,-7.373015873,kcal,<0.0001
+NC2022,Liraglutide SC,365,3,36,VAS Scores,Hunger (fasting),NA,NA,-5.5,-0.015068493,-0.005022831,mm,significant
+NC2022,Liraglutide SC,365,3,36,VAS Scores,Fullness (fasting),NA,NA,3.6,0.009863014,0.003287671,mm,significant
+NC2022,Liraglutide SC,365,3,36,VAS Scores,Satiety (fasting),NA,NA,8.1,0.022191781,0.00739726,mm,0.02
+NC2022,Liraglutide SC,365,3,36,OAS score,OAS score (fasting),10488,10492.5,4.5,0.012328767,0.004109589,mm,significant
+OR2016,Orlistat,90,120,37,Leptin,Leptin,16.46,11,-5.8,-0.064444444,-0.000537037,ng/mL,<0.01
+OR2016B,Orlistat,168,120,21,Leptin,Leptin,25.3,23.5,-1.78,-0.010595238,-8.82937E-05,ng/mL,NS
+GI2021B,Semaglutide Oral,84,14,13,VAS Scores,"Fullness (postprandial, fat-rich breakfast)",NA,55.49,12.17,0.144880952,0.010348639,mm,0.0022
+GI2021B,Semaglutide Oral,84,14,13,VAS Scores,"Satiety (postprandial, fat-rich breakfast)",NA,58.26,12.35,0.14702381,0.010501701,mm,0.0124
+GI2021B,Semaglutide Oral,84,14,13,VAS Scores,"Hunger (postprandial, fat-rich breakfast)",NA,31.99,-13.27,-0.15797619,-0.011284014,mm,0.0133
+GI2021B,Semaglutide Oral,84,14,13,VAS Scores,Prospective Food Consumption,NA,42.05,-10.93,-0.130119048,-0.009294218,mm,0.0414
+GI2021B,Semaglutide Oral,84,14,13,VAS Scores,Overall Appetite Score,NA,40.07,-12.2,-0.145238095,-0.01037415,mm,0.0059
+GA2024B,Semaglutide Oral,140,50,30,VAS Scores,Hunger VAS,NA,NA,-14,-0.1,-0.002,mm,significant
+GA2024B,Semaglutide Oral,140,50,30,VAS Scores,Fullness VAS,NA,NA,15,0.107142857,0.002142857,mm,significant
+GA2024B,Semaglutide Oral,140,50,30,VAS Scores,Satiety VAS,NA,NA,18,0.128571429,0.002571429,mm,significant
+GA2024B,Semaglutide Oral,140,50,30,VAS Scores,PFC VAS,NA,NA,-16,-0.114285714,-0.002285714,mm,significant
+GA2024B,Semaglutide Oral,140,50,30,OAS Score,OAS score,NA,NA,16,0.114285714,0.002285714,mm,significant
+HJ2017,Semaglutide SC,84,1,30,PYY,Fasting PYY,47.11,33.89,-13.22,-0.157380952,-0.157380952,pg/mL,0.0397
+FA2016,Liraglutide SC,17,1.8,20,Leptin,Leptin,25.1,20.8,-4.3,-0.252941176,-0.140522876,ng/mL,0.01
+HE2023V,Tirzepatide SC,196,15,45,VAS Scores,Fasting Satiety VAS,~22,~45,23,0.117346939,0.007823129,mm,<0.05
+HE2023V,Tirzepatide SC,196,15,45,VAS Scores,Fasting Fullness VAS,~18,~40,22,0.112244898,0.007482993,mm,<0.05
+HE2023V,Tirzepatide SC,196,15,45,VAS Scores,Fasting Hunger VAS,~65,~50,-15,-0.076530612,-0.005102041,mm,<0.05
+HE2023V,Tirzepatide SC,196,15,45,VAS Scores,Fasting Prospective Food Consumption VAS,~68,~45,-23,-0.117346939,-0.007823129,mm,<0.001
+HE2023V,Tirzepatide SC,196,15,45,OAS score,Overall Appetite Score,~28,~48,20,0.102040816,0.006802721,mm,<0.01
+MA2025V,Tirzepatide SC,42,10,37,VAS Scores,Fasting Overall Appetite VAS,25.3,48,22.7,0.54047619,0.054047619,mm,<0.0001
+IJO2015,Liraglutide SC,365,1.2,27,Leptin,Plasma Leptin,13,4,-9,-0.0247,-0.0206,ng/mL,<0.05

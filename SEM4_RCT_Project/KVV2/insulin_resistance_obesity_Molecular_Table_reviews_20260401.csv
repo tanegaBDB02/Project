@@ -1,0 +1,18 @@
+Source,Source_Type,Action,Direction,Effect_Magnitude,Target,Target_Type,Node_State,Pathway_Axis,Mechanism,Physiological_Effect,Organ_Tissue_Cell,Primary_Location
+,,,,,,,,,,,,
+Insulin,Hormone,Binds,1,—,IR,Receptor,Active,Insulin Signaling,Ligand-induced receptor autophosphorylation,Initiates tyrosine kinase cascade,Liver / Muscle / Adipose,Plasma Membrane
+IR,Receptor,Phosphorylates,1,—,IRS1 / IRS2,Adaptor Protein,Tyr-phosphorylated,Insulin Signaling,Tyrosine phosphorylation of IRS,Recruits PI3K to membrane,Liver / Muscle / Adipose,Cytoplasm
+IRS1 / IRS2,Adaptor Protein,Activates,1,—,PI3K,Enzyme,Active,Insulin Signaling,SH2-domain binding,Generates PIP3 docking sites,Liver / Muscle / Adipose,Plasma Membrane
+PI3K,Enzyme,Generates,1,—,PIP3,Lipid,Active,Insulin Signaling,Phosphorylation of PIP2,Recruits AKT / PDK1,Liver / Muscle / Adipose,Plasma Membrane
+PIP3,Lipid,Activates,1,—,AKT,Kinase,Active,Insulin Signaling,PDK1 + mTORC2 phosphorylation,Key effector kinase,Liver / Muscle / Adipose,Cytoplasm
+AKT,Kinase,Phosphorylates (inhibits),-1,—,FoxO1,Transcription Factor,Phosphorylated / Cytosolic,Insulin Signaling,Nuclear exclusion of FoxO1,Suppresses gluconeogenic genes (PEPCK / G6Pase),Liver,Nucleus → Cytoplasm
+AKT,Kinase,Phosphorylates,1,—,AS160,Rab-GAP,Inactivated,Insulin Signaling,Rab GTPase activation,Promotes GLUT4 vesicle translocation,Muscle / Adipose,Cytoplasm
+Obesity / Adiposity Expansion,Pathological State,Causes,1,—,"Ectopic Lipids (DAG, Ceramides, FFAs)",Metabolites,Elevated,Lipotoxicity Axis,Adipose spillover + impaired β-oxidation,Lipid overload in non-adipose tissues,Liver / Muscle / Pancreas,Intracellular
+DAG / Ceramides,Metabolites,Activate,1,—,PKCθ / PKCε,Kinase,Active,Lipotoxicity Axis,Lipid-induced kinase activation,Serine phosphorylation of IRS1 (inhibitory),Liver / Muscle,Cytoplasm
+PKC,Kinase,Phosphorylates (inhibits),-1,—,IRS1 / IRS2,Adaptor Protein,Ser-phosphorylated,Insulin Signaling Impairment,Blocks Tyr-phosphorylation & PI3K recruitment,Impaired insulin action,Liver / Muscle,Cytoplasm
+Obese Adipose Tissue,Tissue,Releases,1,—,TNF-α / IL-6 / ROS,Cytokines,Elevated,Inflammation Axis,Macrophage infiltration (M1),Chronic low-grade inflammation,Adipose Tissue,Adipocytes + Macrophages
+TNF-α / IL-6 / ROS,Cytokine,Activate,1,—,JNK / IKKβ / NF-κB / SOCS / TLR,Kinases & Pathways,Active,Inflammation Axis,"NF-κB, JNK, SOCS, TLR, Wnt signaling",Serine phosphorylation of IRS1 + IR inhibition,Adipose / Liver / Muscle / Hypothalamus,Cytoplasm / Nucleus
+JNK / IKKβ / NF-κB,Kinase / TF,Phosphorylates (inhibits),-1,—,IRS1 / IRS2,Adaptor Protein,Ser-phosphorylated,Inflammation Axis,Inhibitory phosphorylation,Systemic + central insulin resistance,Peripheral tissues + Hypothalamus,Cytoplasm
+Insulin (central),Hormone,Activates (impaired),-1,—,AgRP / NPY Neurons,Cell,Resistant,Central Insulin Signaling,Failed FoxO1 nuclear exclusion,↑ orexigenic drive + hepatic glucose output,Hypothalamus,Arcuate Nucleus (AgRP)
+Insulin Resistance,Pathological State,Drives,1,—,Adiposity Expansion + Hyperphagia,Pathological State,Worsened,Resistance Loop,Central AgRP↑ + peripheral lipogenesis,Vicious cycle of obesity,Whole Organism,Adipose + Hypothalamus
+Insulin Resistance,Pathological State,Leads to,1,—,Type 2 Diabetes,Clinical Outcome,Manifested,Progression Axis,β-cell dysfunction + chronic hyperglycemia,Progression from resistance to overt diabetes,Whole Organism,Pancreas + Systemic
